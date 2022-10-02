@@ -25,18 +25,24 @@ Even after extracting the dataset from the vine table that filters for products 
 
 
 
-### 2.Prevalance and Percentage of 5 star ratings for Vine reviews versus non-Vine reviews: 
+### 2.Prevalance of 5 star ratings: 
 ###   *   $\textcolor{blue}{\text{Non-Vine reviews have a higher percentage of 5-star ratings}}$  
-The query output below shows the total number of 5 star ratings for Vine (paid) reviews versus non-Vine (unpaid) reviews and most importantly, shows that the percentage of 5 star ratings for unpaid non-Vine reviews is approx. 57% , versus a slightly lower 50% for the paid Vine reviews.
+The query output below shows the prevalance of 5-star ratings in the dataset.
+<b>   </b> 
+![5-star-ratings](https://user-images.githubusercontent.com/107505166/193473202-d9f2cd41-f5c9-4243-8734-927d44a8456e.PNG)
+
+
+### 3.Prevalance and Percentage of 5 star ratings for Vine reviews versus non-Vine reviews: 
+###   *   $\textcolor{blue}{\text{Non-Vine reviews have a higher percentage of 5-star ratings}}$  
+The query output below shows that the percentage of 5 star ratings for unpaid non-Vine reviews is approx. 57% , versus a slightly lower 50% for the paid Vine reviews.
 <b>   </b>  
 ![Paid_UnPaid_Reviews_Analysis](https://user-images.githubusercontent.com/107505166/193471956-f9c143ba-375d-43ba-9268-721d924e779b.PNG)
 
-
 ## Summary of Findings and Recommendations for further Research
 
-* Analysis of NY CitiBike trip data shows a distribution of bike trips that mimics that of motorized vehicular traffic:  CitiBike trips are most frequent during typical work/school commute times and on the weekends.
-* It also shows that the trips taken are quite short - substantially under twenty minutes.  
-* This trip pattern of short trips during high traffic activity times of the day and week shows the CitBike program successfully meeting transportation needs for many customers in a high-density urban area.   It also appears to fit the needs identified for a bike sharing program in Des Moines:  an easy and enjoyable transportation alternative for residents there.  
+* In the Amazon Jewelry product category review data set there are very few Vine reviews proportionally to non-Vine program reviews.
+* There are many more 5 star 
+* The analysis of the dataset shows that there is a slight bias for 5-star ratings in the non-Vine review
 
 
 ### $\textcolor{blue}{\text{Recommendations for Further Analysis of NY CitiBike Data set}}$  
