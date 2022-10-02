@@ -26,12 +26,12 @@ Even after extracting the dataset from the vine table that filters for products 
 
 
 ### 2.Prevalance of 5 star ratings: 
-The query output below shows the prevalance of 5-star ratings in the dataset and in Vine and non-Vine reviews.
+The query output below shows the prevalance of 5-star ratings in the dataset and in Vine and non-Vine reviews.   There are many more non-Vine reviews in the dataset than Vine reviews, we'll need to look at the Percentage of 5 star ratings to get a sense of what the proportion of 5-star ratings is in each set of review type (Vine, non-Vine).
 <b>   </b> 
 ![5-star-ratings](https://user-images.githubusercontent.com/107505166/193473202-d9f2cd41-f5c9-4243-8734-927d44a8456e.PNG)
 
 
-### 3.Prevalance and Percentage of 5 star ratings for Vine reviews versus non-Vine reviews: 
+### 3.Percentage of 5 star ratings for Vine reviews versus non-Vine reviews: 
 ###   *   $\textcolor{blue}{\text{Non-Vine reviews have a higher percentage of 5-star ratings}}$  
 The query output below shows that the percentage of 5 star ratings for unpaid non-Vine reviews is approx. 57% , versus a slightly lower 50% for the paid Vine reviews.
 <b>   </b>  
