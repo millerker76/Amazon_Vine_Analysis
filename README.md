@@ -47,5 +47,5 @@ The query output below shows that the percentage of 5 star ratings for unpaid no
  * It will be helpful to understand whether the jewelry review dataset is an anomaly in having such a small percentage of Vine reviews - it's recommended to extract proportion of Vine reviews to non-Vine reviews from several other product category datasets for comparison.
  * With the jewlery review dataset used here, further analysis of the star ratings could be done - for example, an analysis of average star-rating for Vine reviews versus average star-ratings for non-Vine reviews would be a useful measure of positivity of Vine reviews vs. non-Vine reviews.
  *  It will be helpful to better understand how the Vine program works, and why there may be varying proportions of Vine reviews vs. non-Vine reviews in differing product category datasets.
- *  It will be helpful to run statistical analyses of significance given the disparity vs. the number of Vine vs. non-Vine reviews in the dataset.  
+ *  It will be helpful to run statistical analyses of significance of findings given the disparity vs. the number of Vine vs. non-Vine reviews in the dataset.  
  
