@@ -5,11 +5,14 @@
 ## Overview of the Project:
 The purpose of this project, using a data set of Amazon product reviews available through Amazon AWS, is to analyze a set of reviews for one distinct product category - in this case the Jewelry product category - and try to determine if there is a bias toward favorable ratings when the reviewer is part of the Vine program.  Reviewers who are not part of the Vine program receive no compensation for the product reviews they provide on Amazon's website, but Vine program reviewers are compensated by being allowed to keep the product that they review free of charge.  
 
-All the visualizations for this project can be seen on Tableau Public:   https://public.tableau.com/views/NYCitiBikeTripAnalysis/NYCitibikeTripAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link  
+## Dataset 
+The dataset contains this information:
+![dataset](https://user-images.githubusercontent.com/107505166/193470925-d9e45131-e929-4c4e-9d14-57c0e4587df7.PNG)
 
-## Insights about CitiBike trips.    
-<b> 1. Trip duration:</b>   
-###      $\textcolor{blue}{\text{Short trips}}$  
+## Results  
+<b>   </b>  
+### 1. Number of Vine reviews versus non-Vine reviews:</b>   
+###      $\textcolor{blue}{\text{Less than 1 percent of reviews in the jewelry reviews dataset are Vine reviews}}$  
 This visualization plots unique bike trips by the length of time the bike was checked out.  We can see that customers are overwhelmingly using CitiBikes for bike trips  $\textcolor{blue}{\text {under 20 minutes}}$ 
 ![Trip Duration all users](https://user-images.githubusercontent.com/107505166/191627672-d0829bd3-eb2b-41a9-8095-eb663108df86.PNG)
 
