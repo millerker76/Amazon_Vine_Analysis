@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/107505166/193470149-07a213e4-298d-4a2a-a235-127d78963a3d.PNG" width="400" height="400"> 
 
 ## Overview of the Project:
-The purpose of this project, using a data set of Amazon product reviews available through Amazon AWS, is to analyze a set of reviews for one distinct product category - in this case the Jewelry product category - and try to determine if there is a bias toward favorable ratings when the reviewer is part of the Vine program.  Reviewers who are not part of the Vine program receive no compensation for the product reviews they provide on Amazon's website, but Vine program reviewers are compensated by being allowed to keep the product that they review free of charge.  
+The purpose of this project, using a dataset of Amazon product reviews available through Amazon AWS, is to analyze a set of reviews for one distinct product category - in this case the Jewelry product category - and try to determine if there is a bias toward favorable ratings when the reviewer is part of the Vine program.  Reviewers who are not part of the Vine program receive no compensation for the product reviews they provide on Amazon's website, but Vine program reviewers are compensated by being allowed to keep the product that they review free of charge.  
 
 ## Dataset 
 The dataset contains this information:
@@ -39,13 +39,13 @@ The query output below shows that the percentage of 5 star ratings for unpaid no
 
 ## Summary of Findings 
 
-* In the Amazon Jewelry product category review data set there are very few Vine reviews proportionally to non-Vine program reviews.
+* In the Amazon Jewelry product category review dataset there are very few Vine reviews proportionally to non-Vine program reviews.
 * The analysis of the dataset shows that there is a slight bias for 5-star ratings in the non-Vine reviews versus the Vine reviews.
 
 
 ### $\textcolor{blue}{\text{Recommendations for Further Analysis}}$  
- * It will be helpful to understand whether the jewelry review data set is an anomaly in having such a small percentage of Vine reviews - it's recommended to extract proportion of Vine reviews to non-Vine reviews from several other product category data sets for comparison.
- * On the jewlery review data set, further analysis of the star ratings could be done - for example, an analysis of average star-rating for Vine reviews versus average star-ratings for non-Vine reviews would be a useful measure of positivity of Vine reveiws vs. non-Vine reviews.
- *  It will be helpful to better understand how the Vine program works, and why there may be varying proportions of Vine reviews vs. non-Vine reviews in differing product category sets.
- *  It will be helpful to run statistical analyses of significance given the disparity vs. the number of Vine vs. non-Vine reviews in the data set.  
+ * It will be helpful to understand whether the jewelry review dataset is an anomaly in having such a small percentage of Vine reviews - it's recommended to extract proportion of Vine reviews to non-Vine reviews from several other product category datasets for comparison.
+ * With the jewlery review dataset used here, further analysis of the star ratings could be done - for example, an analysis of average star-rating for Vine reviews versus average star-ratings for non-Vine reviews would be a useful measure of positivity of Vine reviews vs. non-Vine reviews.
+ *  It will be helpful to better understand how the Vine program works, and why there may be varying proportions of Vine reviews vs. non-Vine reviews in differing product category datasets.
+ *  It will be helpful to run statistical analyses of significance given the disparity vs. the number of Vine vs. non-Vine reviews in the dataset.  
  
