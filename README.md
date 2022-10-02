@@ -12,41 +12,24 @@ The dataset contains this information:
 ## Results  
 <b>   </b>  
 ### 1. Number of Vine reviews versus non-Vine reviews:</b>   
-###      $\textcolor{blue}{\text{Less than 1 percent of reviews in the jewelry reviews dataset are Vine reviews}}$  
+###  *    $\textcolor{blue}{\text{Less than 1 percent of reviews in the jewelry reviews dataset are Vine reviews}}$  
 
 In the dataset, less than 1 percent of reviews are by Vine reviewers versus non-Vine reviewers.  Analysis of datasets of additional product category reviews would be needed to determine if this is a typical percentage of Vine reviews throughout other product categories.
 
 ![Percent_Paid_to_Unpaid_Reviews](https://user-images.githubusercontent.com/107505166/193471022-d85b7bfd-e554-4e09-b950-2b375923287b.PNG)
 <b>   </b>  
 
-Even after extracting the dataset from the vine table that filters for products with more than 20 reviews and with a ratio of helpful votes to total votes > .5, the percentage of Vine to non-Vine reviews remains miniscule at less than 1 percent.
+Even after extracting the dataset from the vine table that filters for products with more than 20 reviews and with a ratio of helpful votes to total votes > 50%, the percentage of Vine to non-Vine reviews remains miniscule at less than 1 percent.
 ![helpful votes ratio](https://user-images.githubusercontent.com/107505166/193471783-7fec6a63-0cfd-495f-a2e6-aece0ebbecc5.PNG)
-
-<b> 2. Usage by gender: </b>   
-### $\textcolor{blue}{\text{More bike usage by males}}$  
-In this visualization, unique bike trips are charted by the gender of the user.  Male users account for nearly $\textcolor{blue}{\text {two-thirds}}$  of all trips.  
-
-<img src="https://user-images.githubusercontent.com/107505166/191404225-40fefa48-899b-43c0-b6b5-a5bfe86e23fa.PNG" width="600" height="300">
-
 <b>   </b>  
-<b>   </b> 
-<b> 3. Usage trends per time of day and day of the week: </b> 
-### $\textcolor{blue}{\text{Peak usage is during typical commuting hours and on weekends}}$  
-This heat map visualization shows areas of concentrated bike usage by hour of day and day of week.  We can see that usage is generally heaviest during weekday morning and late afternoon hours in a pattern that correlates with typical commuter patterns, with the second heaviest concentration on weekends.   Usage on Wednesday afternoons need further exploration!  
 
-![Heat map2](https://user-images.githubusercontent.com/107505166/191406526-73bdd1ec-aefe-4864-bc54-fa47a917ca1a.PNG)
 
+
+### 2.Prevalance and Percentage of 5 star ratings for Vine reviews versus non-Vine reviews: 
+###   *   $\textcolor{blue}{\text{Non-Vine reviews have a higher percentage of 5-star ratings}}$  
+The query output below shows the total number of 5 star ratings for Vine (paid) reviews versus non-Vine (unpaid) reviews and most importantly, shows that the percentage of 5 star ratings for unpaid non-Vine reviews is approx. 57% , versus a slightly lower 50% for the paid Vine reviews.
 <b>   </b>  
-<b>   </b> 
-<b> 4. Customer type as factor in usage </b> 
-### $\textcolor{blue}{\text{Subscribers rule!}}$  
-This chart showing unique CitiBike trips by user type shows that over $\textcolor{blue}{\text {eighty percent}}$ of CitiBike trips are taken by subscribers versus non-subscribing customers.
-
-
-<img src="https://user-images.githubusercontent.com/107505166/191409125-92c87bd0-6859-48e3-accf-8d6e9d066ef7.PNG" width="600" height="300">
-<p>&nbsp;</p>
-This heat map showing the distribution of unique bike ride by time of day, hour of day, subscriber status and gender, graphically demonstrates that $\textcolor{blue}{\text{male subscribers}}$ are the $\textcolor{blue}{\text{heaviest users}}$ of CitiBikes and take the most trips.
-<img src="https://user-images.githubusercontent.com/107505166/191627942-337721c6-1d3c-431d-bbdd-c152967cd601.png" width="600" height="300">
+![Paid_UnPaid_Reviews_Analysis](https://user-images.githubusercontent.com/107505166/193471956-f9c143ba-375d-43ba-9268-721d924e779b.PNG)
 
 
 ## Summary of Findings and Recommendations for further Research
@@ -55,32 +38,6 @@ This heat map showing the distribution of unique bike ride by time of day, hour 
 * It also shows that the trips taken are quite short - substantially under twenty minutes.  
 * This trip pattern of short trips during high traffic activity times of the day and week shows the CitBike program successfully meeting transportation needs for many customers in a high-density urban area.   It also appears to fit the needs identified for a bike sharing program in Des Moines:  an easy and enjoyable transportation alternative for residents there.  
 
-
-#### Published analyses of success factors for bikesharing programs throughout the United States include these common factors:
- 1. Extent of existing bike infrastructure (bike lanes and other infrastructure)
- 2. Integration with an existing public transit systems to allow for easy bike-to-transit links
- 3.  Moderate weather and moderate terrain 
- 
-* https://www.bbc.com/future/article/20210112-the-vast-bicycle-graveyards-of-china
-* https://theconversation.com/heres-what-bike-sharing-programs-need-to-succeed-85969
-
----
-
-  ### Des Moines currently boasts an existing bike trail system, a public transit system and a flat terrain.  The weather is similar to that of New York City. 
-  
-  ---
-
- $\textcolor{green}{\text{ Des Moines Bike Trail System}}$
- ![Des Moines Bike map](https://user-images.githubusercontent.com/107505166/191652999-eb56c0fd-f4d2-4497-89f2-990d080d457c.PNG)
-
- $\textcolor{green}{\text{ (Des Moines DART Public Transit System}}$
-![Dart](https://user-images.githubusercontent.com/107505166/191653014-2567161c-ba72-4354-bbb3-99da336deb95.PNG)
-
- $\textcolor{green}{\text{ (Weather Comparison New York City vs. Des Moines)}}$
- 
-<img src="https://user-images.githubusercontent.com/107505166/191654357-051ca634-1d09-40fa-b341-b34ab2fffdb4.PNG" width="600" height="400">
-
----
 
 ### $\textcolor{blue}{\text{Recommendations for Further Analysis of NY CitiBike Data set}}$  
  * Using geographic data in the NY CitiBike data set, it is recommended to explore how the presence of bike-lane and bike-bridge infrastructure affect bike usage.   These insights may be helpful in evaluating whether Des Moines current bike trail system is ready to successfully support a bike sharing program.
