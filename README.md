@@ -19,7 +19,7 @@ In the dataset, less than 1 percent of reviews are by Vine reviewers versus non-
 ![Percent_Paid_to_Unpaid_Reviews](https://user-images.githubusercontent.com/107505166/193471022-d85b7bfd-e554-4e09-b950-2b375923287b.PNG)
 <b>   </b>  
 
-Even after extracting the dataset from the vine table that filters for products with more than 20 reviews and with a ratio of helpful votes to total votes > 50%, the percentage of Vine to non-Vine reviews remains miniscule at less than 1 percent.
+Even after filtering the table to use only those rows with more than 20 total-votes and with a ratio of helpful votes to total votes > 50%, the percentage of Vine to non-Vine reviews remains miniscule at less than 1 percent.
 ![helpful votes ratio](https://user-images.githubusercontent.com/107505166/193471783-7fec6a63-0cfd-495f-a2e6-aece0ebbecc5.PNG)
 <b>   </b>  
 
