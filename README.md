@@ -14,15 +14,13 @@ The dataset contains this information:
 ### 1. Number of Vine reviews versus non-Vine reviews:</b>   
 ###      $\textcolor{blue}{\text{Less than 1 percent of reviews in the jewelry reviews dataset are Vine reviews}}$  
 
-In the dataset, less than 1 percent of reviews are by Vine reviewers versus non-Vine reviewers.  Analysis of datasets of additional product category reviews would be needed to determine if this is a typical percentage of Vine reviews versus non-Vine reviews. 
+In the dataset, less than 1 percent of reviews are by Vine reviewers versus non-Vine reviewers.  Analysis of datasets of additional product category reviews would be needed to determine if this is a typical percentage of Vine reviews throughout other product categories.
 
 ![Percent_Paid_to_Unpaid_Reviews](https://user-images.githubusercontent.com/107505166/193471022-d85b7bfd-e554-4e09-b950-2b375923287b.PNG)
+<b>   </b>  
 
-Even after extracting the dataset from the vine table that filters for products with more than 20 reviews and with a ratio of helpful votes to total votes > .5, the percentage of Vine to non-Vine reviews is miniscule.
-
-This visualization plots unique bike trips by the length of time the bike was checked out $\textcolor{blue}{\text {and by gender. }}$   For all users, regardless of gender, customers are using CitiBikes primarily for bike trips  $\textcolor{blue}{\text {under 20 minutes}}$  
-![Trip duration](https://user-images.githubusercontent.com/107505166/191400549-50eff202-70f6-401e-a6a5-48a37c65ccac.PNG)
-
+Even after extracting the dataset from the vine table that filters for products with more than 20 reviews and with a ratio of helpful votes to total votes > .5, the percentage of Vine to non-Vine reviews remains miniscule at less than 1 percent.
+![helpful votes ratio](https://user-images.githubusercontent.com/107505166/193471783-7fec6a63-0cfd-495f-a2e6-aece0ebbecc5.PNG)
 
 <b> 2. Usage by gender: </b>   
 ### $\textcolor{blue}{\text{More bike usage by males}}$  
