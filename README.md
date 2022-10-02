@@ -40,11 +40,10 @@ The query output below shows that the percentage of 5 star ratings for unpaid no
 ## Summary of Findings 
 
 * In the Amazon Jewelry product category review dataset there are very few Vine reviews proportionally to non-Vine program reviews.
-* The analysis of the dataset shows that there is a slight bias for 5-star ratings in the non-Vine reviews versus the Vine reviews.
+* The analysis of the dataset shows that $\textcolor{blue}{\text{there is a slight bias for 5-star ratings in the non-Vine reviews}}$   versus the Vine reviews.
 
 
 ### $\textcolor{blue}{\text{Recommendations for Further Analysis}}$  
  * It will be helpful to understand whether the jewelry review dataset is an anomaly in having such a small percentage of Vine reviews - it's recommended to extract proportion of Vine reviews to non-Vine reviews from several other product category datasets for comparison.
- * With the jewlery review dataset used here, further analysis of the star ratings could be done - for example, an analysis of average star-rating for Vine reviews versus average star-ratings for non-Vine reviews would be a useful measure of positivity of Vine reviews vs. non-Vine reviews.
- 
+ * With the jewlery review dataset used here, further analysis of the star ratings could be done - for example, an analysis of   $\textcolor{blue}{\text{ average star-rating}}$ for Vine reviews versus average star-ratings for non-Vine reviews would be a useful measure of positivity of Vine reviews vs. non-Vine reviews.
  
