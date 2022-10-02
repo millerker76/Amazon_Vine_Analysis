@@ -26,8 +26,7 @@ Even after extracting the dataset from the vine table that filters for products 
 
 
 ### 2.Prevalance of 5 star ratings: 
-###   *   $\textcolor{blue}{\text{Non-Vine reviews have a higher percentage of 5-star ratings}}$  
-The query output below shows the prevalance of 5-star ratings in the dataset.
+The query output below shows the prevalance of 5-star ratings in the dataset and in Vine and non-Vine reviews.
 <b>   </b> 
 ![5-star-ratings](https://user-images.githubusercontent.com/107505166/193473202-d9f2cd41-f5c9-4243-8734-927d44a8456e.PNG)
 
@@ -38,15 +37,15 @@ The query output below shows that the percentage of 5 star ratings for unpaid no
 <b>   </b>  
 ![Paid_UnPaid_Reviews_Analysis](https://user-images.githubusercontent.com/107505166/193471956-f9c143ba-375d-43ba-9268-721d924e779b.PNG)
 
-## Summary of Findings and Recommendations for further Research
+## Summary of Findings 
 
 * In the Amazon Jewelry product category review data set there are very few Vine reviews proportionally to non-Vine program reviews.
-* There are many more 5 star 
-* The analysis of the dataset shows that there is a slight bias for 5-star ratings in the non-Vine review
+* The analysis of the dataset shows that there is a slight bias for 5-star ratings in the non-Vine reviews versus the Vine reviews.
 
 
-### $\textcolor{blue}{\text{Recommendations for Further Analysis of NY CitiBike Data set}}$  
- * Using geographic data in the NY CitiBike data set, it is recommended to explore how the presence of bike-lane and bike-bridge infrastructure affect bike usage.   These insights may be helpful in evaluating whether Des Moines current bike trail system is ready to successfully support a bike sharing program.
- * As linkage between existing mass public transit systems and bike share programs appears to be an important factor in the success of bike sharing programs, it will be important to explore the NY CitiBike data set and investigate how many bike trips begin and end near mass public transit entry and exit points.
- *  Des Moines has similar weather to NY City except that it is slightly colder in the winter, and receives moderately more snowfall.   It will be important to investigate patterns of CitiBike usage during winter months in New York to better understand how winter weather conditions affect trip usage and to gain insights into how winter weather might affect bike share program bike usage in Des Moines in winter months.
+### $\textcolor{blue}{\text{Recommendations for Further Analysis}}$  
+ * It will be helpful to understand whether the jewelry review data set is an anomaly in having such a small percentage of Vine reviews - it's recommended to extract proportion of Vine reviews to non-Vine reviews from several other product category data sets for comparison.
+ * On the jewlery review data set, further analysis of the star ratings could be done - for example, an analysis of average star-rating for Vine reviews versus average star-ratings for non-Vine reviews would be a useful measure of positivity of Vine reveiws vs. non-Vine reviews.
+ *  It will be helpful to better understand how the Vine program works, and why there may be varying proportions of Vine reviews vs. non-Vine reviews in differing product category sets.
+ *  It will be helpful to run statistical analyses of significance given the disparity vs. the number of Vine vs. non-Vine reviews in the data set.  
  
